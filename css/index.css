@@ -444,6 +444,9 @@ select:focus-visible {
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
 }
 
 .left, .right {
@@ -454,6 +457,12 @@ select:focus-visible {
 
 .left {
   position: relative;
+  @media only screen and (max-width: 768px) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .product-stock, .business-loc {
@@ -466,6 +475,10 @@ select:focus-visible {
   top: 0;
   display: block;
   margin: 0 auto;
+  @media only screen and (max-width: 768px) {
+    position: relative;
+    transform: translateX(-20%);
+  }
 }
 
 .business-loc {
@@ -476,10 +489,18 @@ select:focus-visible {
   @media only screen and (max-width: 1050px) {
     left: 320px;
   }
+  @media only screen and (max-width: 768px) {
+    position: relative;
+    top: 0;
+    transform: translateY(-50%) translateX(-40%);
+  }
 }
 
 .right {
   padding: 20px;
+  @media only screen and (max-width: 768px) {
+    position: relative;
+  }
 }
 
 .right h2 {
@@ -514,16 +535,6 @@ select:focus-visible {
   position: absolute;
   left: 0;
   color: #5EA3D6;
-}
-
-@media (max-width: 768px) {
-  .container {
-      flex-direction: column;
-  }
-
-  .left img:nth-child(2) {
-      top: 50%;
-  }
 }
 
 .row_three {
@@ -842,6 +853,9 @@ select:focus-visible {
   padding: 6px;
   margin: auto;
   border-radius: 3px;
+  @media only screen and (max-width: 1050px) {
+    bottom: 19%;
+  }
 }
 
 .section__content__button {
@@ -867,6 +881,9 @@ select:focus-visible {
   padding: 10px;
   margin: auto;
   border-radius: 10px;
+  @media only screen and (max-width: 1050px) {
+    bottom: 25%;
+  }
 }
 
 .section__testimonials__column--image {
@@ -983,14 +1000,14 @@ select:focus-visible {
     padding-left: 20px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 768px) {
     flex-direction: column;
   }
 }
 
 .footer__email {
   align-self: end;
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 768px) {
     align-self: auto;
   }
 }
@@ -1000,8 +1017,8 @@ select:focus-visible {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  @media only screen and (max-width: 550px) {
-    width: 100%;
+  @media only screen and (max-width: 768px) {
+    width: auto;
   }
 }
 
@@ -1050,6 +1067,9 @@ select:focus-visible {
   flex-wrap: wrap;
   gap: 20px;
   padding: 8px 16px;
+  @media only screen and (max-width: 768px) {
+    width: auto;
+  }
 }
 
 .terms-link-link {
