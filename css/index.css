@@ -114,6 +114,9 @@ select:focus-visible {
   @media only screen and (max-width: 1050px) {
     height: auto;
   }
+  @media only screen and (max-width: 550px) {
+    height: 875px;
+  }
 }
 
 .stack-view {
@@ -124,6 +127,9 @@ select:focus-visible {
 
   @media only screen and (max-width: 1050px) {
     height: auto;
+  }
+  @media only screen and (max-width: 550px) {
+    height: 875px;
   }
 }
 
@@ -197,6 +203,10 @@ select:focus-visible {
   @media only screen and (max-width: 1050px) {
     height: 148px;
   }
+  @media only screen and (max-width: 550px) {
+    height: 120px;
+    visibility: hidden;
+  }
 }
 
 .section__content-2 {
@@ -229,11 +239,14 @@ select:focus-visible {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  @media only screen and (max-width: 550px) {
+    font-size: 26px;
+    flex-direction: column;
+  }
 }
 
 .section__logo {
   height: 28px;
-  width: 10%;
 }
 
 .section__preorder-button {
@@ -493,6 +506,9 @@ select:focus-visible {
     position: relative;
     top: 0;
     transform: translateY(-50%) translateX(-40%);
+  }
+  @media only screen and (max-width: 550px) {
+    transform: translateY(-50%) translateX(-80%);
   }
 }
 
@@ -771,6 +787,10 @@ select:focus-visible {
     position: relative;
     padding: 20px;
   }
+  
+  @media only screen and (max-width: 550px) {
+    display: grid;
+  }
 }
 
 .section__description {
@@ -784,10 +804,6 @@ select:focus-visible {
   @media only screen and (max-width: 1050px) {
     width: 100%;
     font-size: 16px;
-  }
-
-  @media only screen and (max-width: 550px) {
-    font-size: 24px;
   }
 }
 
@@ -1089,6 +1105,9 @@ select:focus-visible {
 .call-to-action__buttons {
   gap: 13px;
   display: flex;
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
 }
 
 .services-section__button {
