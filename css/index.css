@@ -306,6 +306,9 @@ select:focus-visible {
   @media only screen and (max-width: 1050px) {
     visibility: hidden;
   }
+  @media only screen and (min-width: 2500px) {
+    height: 480px;
+  }
 }
 
 .column__image--bottom {
@@ -354,6 +357,9 @@ select:focus-visible {
   margin: auto;
   @media only screen and (max-width: 1050px) {
     visibility: hidden;
+  }
+  @media only screen and (min-width: 2000px) {
+    height: 400px;
   }
 }
 
@@ -435,19 +441,6 @@ select:focus-visible {
 
 .row_two {
   margin-top: 120px;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1200px;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  @media only screen and (max-width: 768px) {
-    flex-direction: column;
-  }
 }
 
 .left, .right {
@@ -851,6 +844,10 @@ select:focus-visible {
   @media only screen and (max-width: 1050px) {
     height: auto;
   }
+
+  @media only screen and (min-width: 2000px) {
+    width: 60%;
+  }
 }
 
 .section__content__image {
@@ -906,7 +903,7 @@ select:focus-visible {
 }
 
 .section__testimonials__column--image {
-  align-self: end;
+  align-self: center;
   background-color: #d9d9d9;
   width: 18%;
   border-radius: 28px;
@@ -1429,11 +1426,29 @@ select:focus-visible {
   font-family: Montserrat;
 }
 
-.container-xs {
-  max-width: 1134px;
-  width: 100%;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
   margin-left: auto;
   margin-right: auto;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.container-xs {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container, .container-xs {
+  width: 100%;
+  max-width: 80%;
+  @media only screen and (min-width: 2500px) {
+    max-width: 60%;
+  }
 }
 
 @font-face {
