@@ -464,6 +464,9 @@ select:focus-visible {
     flex-direction: column;
     justify-content: center;
   }
+  @media only screen and (max-width: 350px) {
+    display: none;
+  }
 }
 
 .product-stock, .business-loc {
@@ -496,7 +499,7 @@ select:focus-visible {
     transform: translateY(-50%) translateX(-40%);
   }
   @media only screen and (max-width: 550px) {
-    transform: translateY(-50%) translateX(-80%);
+    transform: translateY(-50%) translateX(-100%);
   }
 }
 
@@ -601,6 +604,9 @@ select:focus-visible {
 .services-section__content {
   display: flex;
   align-items: start;
+  @media only screen and (max-width: 350px) {
+    display: grid;
+  }
 }
 
 .services-section__content-column {
@@ -643,6 +649,9 @@ select:focus-visible {
   align-items: end;
   @media only screen and (max-width: 550px) {
     width: 100%;
+  }
+  @media only screen and (max-width: 350px) {
+    display: none;
   }
 }
 
@@ -705,6 +714,9 @@ select:focus-visible {
   @media only screen and (max-width: 550px) {
     align-self: auto;
     width: 100%;
+  }
+  @media only screen and (max-width: 350px) {
+    display: none;
   }
 }
 
