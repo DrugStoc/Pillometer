@@ -297,7 +297,7 @@ select:focus-visible {
   align-items: end;
 }
 
-.column__image--top {
+.laptop-image {
   height: 334px;
   z-index: 3;
   width: 46%;
@@ -600,9 +600,6 @@ select:focus-visible {
   @media only screen and (max-width: 550px) {
     flex-direction: column;
   }
-  /* @media only screen and (max-width: 350px) {
-    display: grid;
-  } */
 }
 
 .services-section__content-column {
@@ -1114,113 +1111,6 @@ select:focus-visible {
   letter-spacing: -0.6px;
   font-weight: 700;
   max-width: 200px;
-}
-
-.product-details {
-  gap: 8px;
-  display: flex;
-  flex-direction: column;
-}
-
-.product-details__row {
-  margin-left: 12px;
-  margin-right: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  @media only screen and (max-width: 1050px) {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-
-.product-details__view {
-  height: 26px;
-  background-color: #e2eef6;
-  width: 26px;
-  border-radius: 3px;
-}
-
-.product-details__title {
-  margin-left: 20px;
-  letter-spacing: 0.05px;
-  font-size: 7.75px !important;
-}
-
-.product-details__quantity {
-  color: #ffffff !important;
-  margin-left: 50px;
-  letter-spacing: 0.05px;
-  font-size: 6.78px !important;
-  background-color: #b3261e;
-  width: 12px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  height: 12px;
-  border-radius: 1px;
-}
-
-.product-details__availability {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-}
-
-.product-details__availability-text {
-  color: #5ea3d6 !important;
-  letter-spacing: 0.05px;
-  font-size: 4.84px !important;
-}
-
-.product-details__settings-icon {
-  height: 6px;
-}
-
-.product-details__separator {
-  height: 0.39px;
-  background-color: #e6e1e5;
-}
-
-.active-1 {
-  color: #ffffff !important;
-  letter-spacing: 0.04px;
-  font-size: 5.38px !important;
-  background-color: #4caf50;
-  border-radius: 1px;
-}
-
-.neimeth {
-  padding-left: 10px;
-  letter-spacing: 0.04px;
-  font-size: 6.15px !important;
-  line-height: 7px;
-}
-
-.ahgd666 {
-  letter-spacing: 0.04px;
-  font-size: 6.15px !important;
-}
-
-.inactive {
-  color: #ffffff !important;
-  letter-spacing: 0.04px;
-  font-size: 5.38px !important;
-  background-color: #aeaaae;
-  border-radius: 1px;
-}
-
-.rowmorevert_one {
-  padding-left: 4px;
-  padding-right: 4px;
-  display: flex;
-}
-
-.morevert_one {
-  height: 8px;
-  margin-bottom: 10px;
-  width: 8px;
 }
 
 .description__text {
