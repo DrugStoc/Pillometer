@@ -1,13 +1,3 @@
-/*=========== TABLE OF CONTENTS ===========
-1. Reset CSS
-2. Page CSS
-3. Component CSS
-4. Fonts CSS
-==========================================*/
-
-/*-------------------------------------
-  1. Reset CSS
---------------------------------------*/
 body {
   margin: 0;
   padding: 0;
@@ -72,9 +62,6 @@ select:focus-visible {
   outline: none;
 }
 
-/*-------------------------------------
-  2. Page CSS
---------------------------------------*/
 .pillometer-landing {
   gap: 104px;
   background-color: #ffffff;
@@ -204,6 +191,7 @@ select:focus-visible {
     height: 148px;
   }
   @media only screen and (max-width: 550px) {
+    width: 0;
     height: 120px;
     visibility: hidden;
   }
@@ -1183,14 +1171,6 @@ select:focus-visible {
   background-color: #e6e1e5;
 }
 
-.locations__table__header__id {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  letter-spacing: 0.04px;
-  text-align: left;
-  font-size: 6.15px !important;
-}
-
 .active-1 {
   color: #ffffff !important;
   letter-spacing: 0.04px;
@@ -1267,10 +1247,6 @@ select:focus-visible {
   height: 34px;
 }
 
-/*-------------------------------------
-  3. Component CSS
---------------------------------------*/
-/*------Button CSS------*/
 .ui.button.round {
   border-radius: 8px;
 }
@@ -1438,13 +1414,6 @@ select:focus-visible {
   font-family: Montserrat;
 }
 
-/*------Table CSS------*/
-.ui.table.size-xs tbody td {
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-
-/*------Container CSS------*/
 .container-xs {
   max-width: 1134px;
   width: 100%;
@@ -1452,9 +1421,6 @@ select:focus-visible {
   margin-right: auto;
 }
 
-/*-------------------------------------
-  4. Fonts CSS
---------------------------------------*/
 @font-face {
   font-display: swap;
   font-style: normal;
