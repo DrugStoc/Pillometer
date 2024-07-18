@@ -242,6 +242,7 @@ select:focus-visible {
   font-weight: 600;
   min-width: 192px;
   border-radius: 5px;
+  z-index: 5;
 }
 
 .section__description-column {
@@ -254,6 +255,7 @@ select:focus-visible {
   color: #ffffff !important;
   letter-spacing: -1.8px;
   line-height: 58px;
+  z-index: 5;
   @media only screen and (max-width: 1050px) {
     font-size: 32px;
   }
@@ -268,6 +270,7 @@ select:focus-visible {
   letter-spacing: -0.2px;
   width: 44%;
   line-height: 32px;
+  z-index: 5;
   @media only screen and (max-width: 1440px) {
     width: 40%;
   }
@@ -1102,6 +1105,7 @@ select:focus-visible {
 .call-to-action__buttons {
   gap: 13px;
   display: flex;
+  z-index: 5;
   @media only screen and (max-width: 550px) {
     flex-direction: column;
   }
