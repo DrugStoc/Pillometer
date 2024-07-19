@@ -306,15 +306,61 @@
   </body>
 
   <script>
-    document.getElementById('generate-button').addEventListener('click', function() {
-      const sectionContent = document.querySelector('.section__content-1');
+    const setActionsBottomPosition = () => {
       const actions = document.querySelector('.section__content__actions');
       const button = document.getElementById('generate-button');
 
       if (button.innerText === 'Generate') {
-        // Change button text to "Restart"
-        button.innerText = 'Restart';
+        if (window.innerWidth >= 1700) {
+          actions.style.bottom = '4%';
+        } else if (window.innerWidth <= 550) {
+          actions.style.bottom = '15%';
+        } else if (window.innerWidth <= 800) {
+          actions.style.bottom = '8%';
+        } else if (window.innerWidth <= 1050) {
+          actions.style.bottom = '6.5%';
+        } else {
+          actions.style.bottom = '8%';
+        }
+      } else {
+        if (window.innerWidth <= 800) {
+          actions.style.bottom = '33%';
+        } else {
+          actions.style.bottom = '24%';
+        }
+      }
+    };
+    const resizeActionsBottomPosition = () => {
+      const actions = document.querySelector('.section__content__actions');
+      const button = document.getElementById('generate-button');
 
+      if (button.innerText === 'Restart') {
+        if (window.innerWidth >= 1700) {
+          actions.style.bottom = '4%';
+        } else if (window.innerWidth <= 550) {
+          actions.style.bottom = '15%';
+        } else if (window.innerWidth <= 800) {
+          actions.style.bottom = '8%';
+        } else if (window.innerWidth <= 1050) {
+          actions.style.bottom = '6.5%';
+        } else {
+          actions.style.bottom = '8%';
+        }
+      } else {
+        if (window.innerWidth <= 800) {
+          actions.style.bottom = '33%';
+        } else {
+          actions.style.bottom = '24%';
+        }
+      }
+      console.log('look for me', button.innerText, actions.style.bottom)
+    };
+
+    document.getElementById('generate-button').addEventListener('click', function() {
+      const sectionContent = document.querySelector('.section__content-1');
+      const button = document.getElementById('generate-button');
+
+      if (button.innerText === 'Generate') {
         // Add new testimonial
         const newTestimonial = document.createElement('div');
         newTestimonial.className = 'section__testimonials-2 fade-in';
@@ -333,11 +379,9 @@
         sectionContent.appendChild(newTestimonial);
 
         // Update CSS for section__content__actions
-        actions.style.bottom = '4%';
+        setActionsBottomPosition();
+        button.innerText = 'Restart';
       } else {
-        // Change button text to "Generate"
-        button.innerText = 'Generate';
-
         // Remove new testimonials with fade-out effect
         const newTestimonial = document.querySelector('.section__testimonials-2');
 
@@ -352,8 +396,11 @@
         }
 
         // Revert CSS for section__content__actions
-        actions.style.bottom = '24%';
+        setActionsBottomPosition();
+        button.innerText = 'Generate';
       }
     });
+
+    window.addEventListener('resize', resizeActionsBottomPosition);
   </script>
 </html>

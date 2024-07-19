@@ -895,12 +895,16 @@ select:focus-visible {
   align-items: center;
   position: absolute;
   bottom: 24%;
-  left: 20%;
+  left: 37%;
   padding: 6px;
   margin: auto;
   border-radius: 3px;
-  @media only screen and (max-width: 1050px) {
-    bottom: 19%;
+  @media only screen and (min-width: 1700px) {
+    left: 20%;
+  }
+  @media only screen and (max-width: 768px) {
+    bottom: 33%;
+    left: 27%;
   }
 }
 
@@ -916,16 +920,25 @@ select:focus-visible {
 
 .section__testimonials-1 {
   bottom: 31%;
-  @media only screen and (max-width: 1050px) {
-    bottom: 25%;
+  @media only screen and (max-width: 768px) {
+    bottom: 40%;
   }
 }
 
 .section__testimonials-2 {
-  bottom: 11%;
+  bottom: 15%;
   background: linear-gradient(141deg, #5ea3d6, #4b70d6);
   @media only screen and (max-width: 1050px) {
-    bottom: 5%;
+    bottom: 13%;
+  }
+  @media only screen and (max-width: 768px) {
+    bottom: 16%;
+  }
+  @media only screen and (max-width: 550px) {
+    bottom: 22%;
+  }
+  @media only screen and (min-width: 1700px) {
+    bottom: 11%;
   }
 }
 
@@ -945,7 +958,6 @@ select:focus-visible {
 
 .section__testimonials__column--image {
   align-self: center;
-  background-color: #d9d9d9;
   width: 18%;
   border-radius: 50%;
   @media only screen and (max-width: 550px) {
