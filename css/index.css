@@ -957,7 +957,8 @@ select:focus-visible {
 }
 
 .section__testimonials__column--image {
-  align-self: center;
+  display: flex;
+  justify-content: center;
   width: 18%;
   border-radius: 50%;
   @media only screen and (max-width: 550px) {
@@ -968,6 +969,7 @@ select:focus-visible {
 .section__testimonials__image {
   object-fit: cover;
   border-radius: 50%;
+  background-color: #ffffff;
   @media only screen and (max-width: 1440px) {
     height: auto;
   }

@@ -30,8 +30,14 @@
                       <img src="public/images/img_v1_wordmark_dark.svg" alt="Brand Image" class="section__logo" />
                       <button
                         class="section__preorder-button ui button material_theme_sys_light_on_primary size-xs fill"
+                        onclick="
+                          window.open(
+                            'https://docs.google.com/forms/d/e/1FAIpQLScOOBYY_jJwMXPDqQb9JAvnaCNZNM1bOR9-f7lZb1hKRTPw5Q/viewform?usp=sf_link',
+                            '_blank'
+                          )
+                        "
                       >
-                        Preorder here
+                        Preorder here &nbsp; <img src="public/images/vector.png" width="10" height="10" alt="" title=""/>
                       </button>
                     </div>
                     <div class="container-xs">
@@ -343,7 +349,7 @@
         newTestimonial.className = 'section__testimonials-2 fade-in';
         newTestimonial.innerHTML = `
           <div class="section__testimonials__column--image">
-            <img src="public/images/img_whatsapp_image_2024_04_04.png" alt="Whatsapp Image" class="section__testimonials__image" />
+            <img src="public/images/img_rectangle_16_copy.png" alt="Whatsapp Image" class="section__testimonials__image" />
           </div>
           <div class="section__testimonials__column--text">
             <p class="section__testimonials__author ui text size-textxl">Dora</p>
