@@ -32,12 +32,12 @@
                         class="section__preorder-button ui button material_theme_sys_light_on_primary size-xs fill"
                         onclick="
                           window.open(
-                            'https://docs.google.com/forms/d/e/1FAIpQLScOOBYY_jJwMXPDqQb9JAvnaCNZNM1bOR9-f7lZb1hKRTPw5Q/viewform?usp=sf_link',
+                            'https://admin.pillometer.com/select-signup',
                             '_blank'
                           )
                         "
                       >
-                        Preorder here &nbsp; <img src="public/images/vector.png" width="10" height="10" alt="" title=""/>
+                        Sign Up &nbsp; <img src="public/images/vector.png" width="10" height="10" alt="" title=""/>
                       </button>
                     </div>
                     <div class="container-xs">
@@ -47,18 +47,27 @@
                         </h1>
                         <p class="section__subtitle ui text size-text2xl">
                           Pillometer is a ready-made pharmacy operating system for any inventory size; complete with a
-                          dependable hardware and efficient software unit.
+                          dependable hardware and efficient software unit.<br />
+                          Pillometer works 24/7 so that you don’t have to! Order the Pillometer device with preinstalled software or 
+                          download the Pillometer software now to get started.
                         </p>
                         <div class="call-to-action__buttons">
                           <button
                             class="services-section__button ui button material_theme_sys_light_on_primary size-sm fill round"
+                            onclick="openAppropriateLink()"
                           >
                             Download the App
                           </button>
                           <button
                             class="services-section__button ui button re_branding_colors_rebranding_color_black size-sm fill round"
+                            onclick="
+                              window.open(
+                                'https://forms.gle/WuCHsr2H6U8ATSou6',
+                                '_blank'
+                              )
+                            "
                           >
-                            Get Hardware
+                            Get Hardware &nbsp; <img src="public/images/vector.png" width="10" height="10" alt="" title=""/>
                           </button>
                         </div>
                       </div>
@@ -122,7 +131,7 @@
             <div class="services-section container-xs">
               <div class="services-section__column">
                 <h2 class="services-section__title ui heading size-heading3xl">
-                  Kickstart Operations Seamlessly<br />with the Complete Unit
+                  Step-up Business Operations with Pillometer
                 </h2>
                 <div class="services-section__content">
                   <div class="services-section__content-column">
@@ -191,8 +200,14 @@
                 </div>
                 <button
                   class="services-section__button ui button re_branding_colors_rebranding_color size-sm fill round"
+                  onclick="
+                    window.open(
+                      'https://forms.gle/WuCHsr2H6U8ATSou6',
+                      '_blank'
+                    )
+                  "
                 >
-                  Get Hardware
+                  Get Hardware &nbsp; <img src="public/images/vector.png" width="10" height="10" alt="" title=""/>
                 </button>
               </div>
             </div>
@@ -205,20 +220,21 @@
             <div class="section__description ui">
               <h2 class="heading size-heading3xl">
                 <span class="section__description-span">
-                  Meet Dora, <br />
+                  Meet D.O.R.A, <br />
                 </span>
                 <span>Pillometer’s Artificial Intelligence Powered Operating System</span>
               </h2>
               <p class="description ui text size-textxl">
                 <p class="bold-text">Developed with Pharmacists, for Pharmacies.</p>
+                <p class="description-text">D.O.R.A empowers your pharmacists and attendants to deliver:</p>
                 <ul class="unordered-list description-list">
                   <li>Unmatched patient care</li>
                   <li>Enhanced medication safety with personalized drug interaction, contraindication, and allergen detection</li>
                   <li>Tailored care and follow-up for every patient</li>
                   <li>Secured cloud storage and reliable data protection</li>
-                  <li>Experience Advanced Pharmacy Management</li>
-                  <li>Set up Pillometer in just 10 minutes and transform business operations with D.O.R.A.</li>
                 </ul>
+                <p class="bold-text">Experience Advanced Pharmacy Management.</p>
+                <p class="description-text">Set up Pillometer in just 10 minutes and transform business operations with D.O.R.A.</p>
               </p>
             </div>
             <div class="section__content-1">
@@ -256,13 +272,20 @@
               <div class="call-to-action__buttons">
                 <button
                   class="call-to-action__button--download ui button material_theme_sys_light_on_primary size-sm fill round"
+                  onclick="openAppropriateLink()"
                 >
                   Download the App
                 </button>
                 <button
                   class="call-to-action__button--download ui button re_branding_colors_rebranding_color_black size-sm fill round"
+                  onclick="
+                    window.open(
+                      'https://forms.gle/WuCHsr2H6U8ATSou6',
+                      '_blank'
+                    )
+                  "
                 >
-                  Get Hardware
+                  Get Hardware &nbsp; <img src="public/images/vector.png" width="10" height="10" alt="" title=""/>
                 </button>
               </div>
             </div>
@@ -276,11 +299,47 @@
           <div class="footer__contact-info">
             <p class="footer__email ui text size-textxl">help@pillometer.com</p>
             <div class="footer__social-media">
-              <img src="public/images/img_facebook.svg" alt="Facebook Icon" class="footer__icon--facebook" />
-              <img src="public/images/img_link.svg" alt="Linkedin Icon" class="footer__icon--linkedin" />
-              <img src="public/images/img_info.svg" alt="Info Icon" class="footer__icon--linkedin" />
-              <img src="public/images/img_trash.svg" alt="Trash Icon" class="footer__icon--facebook" />
-              <img src="public/images/img_profile.svg" alt="Profile Icon" class="footer__icon--facebook" />
+              <img
+                src="public/images/img_facebook.svg"
+                onclick="
+                  window.open(
+                    'https://www.facebook.com/drugstocehub/',
+                    '_blank'
+                  )
+                "
+                alt="Facebook Icon"
+                class="footer__icon--facebook" />
+              <img
+                src="public/images/img_link.svg"
+                onclick="
+                  window.open(
+                    'https://ng.linkedin.com/company/drugstoc',
+                    '_blank'
+                  )
+                "
+                alt="Linkedin Icon"
+                class="footer__icon--linkedin" />
+              <img
+                src="public/images/img_info.svg"
+                onclick="
+                  window.open(
+                    'https://www.instagram.com/drugstoc/?hl=en',
+                    '_blank'
+                  )
+                "
+                alt="Instagram Icon"
+                class="footer__icon--linkedin" />
+              <img
+                src="public/images/img_trash.svg"
+                onclick="
+                  window.open(
+                    'https://twitter.com/DrugStocHQ',
+                    '_blank'
+                  )
+                "
+                alt="Twitter Icon"
+                class="footer__icon--facebook" />
+              <!-- <img src="public/images/img_profile.svg" alt="Profile Icon" class="footer__icon--facebook" /> -->
             </div>
           </div>
         </div>
@@ -385,5 +444,20 @@
     });
 
     window.addEventListener('resize', resizeActionsBottomPosition);
+
+    function openAppropriateLink() {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      if (/android/i.test(userAgent)) {
+        // Android device
+        window.open('https://play.google.com/store/search?q=pillometer&c=apps&hl=en_US', '_blank');
+      } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        // iOS device
+        window.open('https://apps.apple.com/us/app/pillometer/id6502710017', '_blank');
+      } else {
+        // Fallback or unknown device
+        window.open('https://play.google.com/store/search?q=pillometer&c=apps&hl=en_US', '_blank');
+      }
+    }
   </script>
 </html>

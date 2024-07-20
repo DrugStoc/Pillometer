@@ -254,7 +254,6 @@ select:focus-visible {
 .section__title {
   color: #ffffff !important;
   letter-spacing: -1.8px;
-  line-height: 58px;
   z-index: 5;
   @media only screen and (max-width: 1050px) {
     font-size: 32px;
@@ -444,6 +443,9 @@ select:focus-visible {
 
 .row_two {
   margin-top: 120px;
+  @media only screen and (max-width: 768px) {
+    margin-top: 80px;
+  }
 }
 
 .left, .right {
@@ -459,7 +461,7 @@ select:focus-visible {
     flex-direction: column;
     justify-content: center;
   }
-  @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 400px) {
     display: none;
   }
 }
@@ -541,6 +543,9 @@ select:focus-visible {
 
 .row_three {
   margin-top: 116px;
+  @media only screen and (max-width: 768px) {
+    margin-top: 80px;
+  }
 }
 
 .services {
@@ -751,6 +756,10 @@ select:focus-visible {
   @media only screen and (max-width: 1050px) {
     height: auto;
   }
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 80px;
+  }
 }
 
 .description {
@@ -758,6 +767,11 @@ select:focus-visible {
   margin-top: 6%;
   letter-spacing: -0.2px;
   line-height: 23px;
+}
+
+.description-text {
+  color: #555;
+  line-height: 1.6;
 }
 
 .description-list {
@@ -960,7 +974,7 @@ select:focus-visible {
   justify-content: center;
   width: 18%;
   border-radius: 28px;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1024px) {
     display: none;
   }
 }
@@ -1267,11 +1281,11 @@ select:focus-visible {
 }
 
 .ui.text.size-text2xl {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   @media only screen and (max-width: 1440px) {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 
