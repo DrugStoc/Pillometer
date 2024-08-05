@@ -241,7 +241,7 @@
               <div class="section__content__stack">
                 <img src="public/images/img_rectangle_16.png" alt="Feature Image" class="section__content__image" />
                 <div class="section__content__actions">
-                  <h3 id="generate-button" class="section__content__button ui button heading size-heading2xl">Generate</h3>
+                  <h3 id="ask-dora-button" class="section__content__button ui button heading size-heading2xl">Ask Dora</h3>
                   <img src="public/images/img_christmas_stars.svg" alt="Stars Image" class="section__content__icon" />
                 </div>
               </div>
@@ -373,7 +373,7 @@
   <script>
     const resizeActionsBottomPosition = () => {
       const actions = document.querySelector('.section__content__actions');
-      const button = document.getElementById('generate-button');
+      const button = document.getElementById('ask-dora-button');
       let bottomPosition;
 
       if (button.innerText === 'Restart') {
@@ -398,11 +398,11 @@
       actions.style.bottom = bottomPosition;
     };
 
-    document.getElementById('generate-button').addEventListener('click', function() {
+    document.getElementById('ask-dora-button').addEventListener('click', function() {
       const sectionContent = document.querySelector('.section__content-1');
-      const button = document.getElementById('generate-button');
+      const button = document.getElementById('ask-dora-button');
 
-      if (button.innerText === 'Generate') {
+      if (button.innerText === 'Ask Dora') {
         // Add new testimonial
         const newTestimonial = document.createElement('div');
         newTestimonial.className = 'section__testimonials-2 fade-in';
@@ -438,7 +438,7 @@
         }
 
         // Revert CSS for section__content__actions
-        button.innerText = 'Generate';
+        button.innerText = 'Ask Dora';
         resizeActionsBottomPosition();
       }
     });
