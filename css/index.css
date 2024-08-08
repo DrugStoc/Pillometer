@@ -308,8 +308,12 @@ select:focus-visible {
   @media only screen and (max-width: 1050px) {
     visibility: hidden;
   }
+  @media only screen and (min-width: 1800px) {
+    height: auto;
+  }
   @media only screen and (min-width: 2500px) {
-    height: 480px;
+    height: auto;
+    width: 36%;
   }
 }
 
@@ -360,8 +364,8 @@ select:focus-visible {
   @media only screen and (max-width: 1050px) {
     visibility: hidden;
   }
-  @media only screen and (min-width: 2000px) {
-    height: 400px;
+  @media only screen and (min-width: 1800px) {
+    height: auto;
   }
 }
 
@@ -486,9 +490,9 @@ select:focus-visible {
   position: absolute;
   left: 400px;
   top: 200px;
-  transform: translateX(-50%);
-  @media only screen and (max-width: 1050px) {
-    left: 320px;
+  transform: translateX(-60%);
+  @media only screen and (max-width: 1400px) {
+    left: 220px;
   }
   @media only screen and (max-width: 768px) {
     position: relative;
