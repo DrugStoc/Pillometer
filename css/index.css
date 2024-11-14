@@ -68,15 +68,15 @@ select:focus-visible {
   display: flex;
   width: 100%;
   flex-direction: column;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     gap: 104px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     gap: 78px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     gap: 52px;
   }
 }
@@ -87,7 +87,7 @@ select:focus-visible {
   background-size: cover;
   background-repeat: no-repeat;
   
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     height: auto;
   }
 }
@@ -98,10 +98,10 @@ select:focus-visible {
   background-size: cover;
   background-repeat: no-repeat;
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     height: auto;
   }
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     height: 875px;
   }
 }
@@ -112,10 +112,10 @@ select:focus-visible {
   position: relative;
   align-content: flex-end;
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     height: auto;
   }
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     height: 875px;
   }
 }
@@ -140,16 +140,16 @@ select:focus-visible {
   display: flex;
   flex-direction: column;
   align-items: end;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     padding-right: 32px;
     padding: 0;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     display: none;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -167,13 +167,13 @@ select:focus-visible {
   display: flex;
   justify-content: center;
   align-items: start;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 100%;
     padding: 0;
     padding-right: 20px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     flex-direction: column;
     width: 100%;
     padding: 20px;
@@ -187,10 +187,10 @@ select:focus-visible {
   filter: blur(1000px);
   width: 448px;
   border-radius: 224px;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     height: 148px;
   }
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     width: 0;
     height: 120px;
     visibility: hidden;
@@ -206,17 +206,17 @@ select:focus-visible {
   flex: 1;
   flex-direction: column;
   align-items: center;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     gap: 104px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     align-self: stretch;
     gap: 78px;
     margin-left: 0px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     gap: 52px;
   }
 }
@@ -227,7 +227,7 @@ select:focus-visible {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     font-size: 26px;
     flex-direction: column;
   }
@@ -255,11 +255,11 @@ select:focus-visible {
   color: #ffffff !important;
   letter-spacing: -1.8px;
   z-index: 5;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     font-size: 32px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     font-size: 26px;
   }
 }
@@ -270,11 +270,11 @@ select:focus-visible {
   width: 44%;
   line-height: 32px;
   z-index: 5;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 40%;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     width: 100%;
   }
 }
@@ -285,7 +285,7 @@ select:focus-visible {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     flex-direction: column;
   }
 }
@@ -305,13 +305,13 @@ select:focus-visible {
   width: 46%;
   position: relative;
   object-fit: cover;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     visibility: hidden;
   }
-  @media only screen and (min-width: 1800px) {
+  @media screen and (min-width: 1800px) {
     height: auto;
   }
-  @media only screen and (min-width: 2500px) {
+  @media screen and (min-width: 2500px) {
     height: auto;
     width: 36%;
   }
@@ -323,7 +323,7 @@ select:focus-visible {
   margin-right: 120px;
   position: relative;
   width: 32%;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     margin-right: 0px;
   }
 }
@@ -335,7 +335,7 @@ select:focus-visible {
   position: relative;
   width: 20%;
   object-fit: cover;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     align-self: auto;
     width: 100%;
     margin-left: 0px;
@@ -361,10 +361,10 @@ select:focus-visible {
   bottom: 20%;
   right: 12%;
   margin: auto;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     visibility: hidden;
   }
-  @media only screen and (min-width: 1800px) {
+  @media screen and (min-width: 1800px) {
     height: auto;
   }
 }
@@ -379,15 +379,15 @@ select:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     height: auto;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     height: auto;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     padding-top: 16px;
     padding-bottom: 16px;
   }
@@ -398,17 +398,17 @@ select:focus-visible {
   padding-right: 56px;
   display: flex;
   justify-content: center;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     padding: 20px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     padding-left: 20px;
     padding-right: 20px;
     padding: 20px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -417,7 +417,7 @@ select:focus-visible {
 .section__menu {
   gap: 11px;
   display: flex;
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     flex-direction: column;
   }
 }
@@ -425,7 +425,7 @@ select:focus-visible {
 .section__menu-icon {
   height: 22px;
   width: 22px;
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     width: 100%;
   }
 }
@@ -447,7 +447,7 @@ select:focus-visible {
 
 .row_two {
   margin-top: 120px;
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     margin-top: 80px;
   }
 }
@@ -459,13 +459,13 @@ select:focus-visible {
 
 .left {
   position: relative;
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  @media only screen and (max-width: 400px) {
+  @media screen and (max-width: 400px) {
     display: none;
   }
 }
@@ -480,7 +480,7 @@ select:focus-visible {
   top: 0;
   display: block;
   margin: 0 auto;
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     position: relative;
     transform: translateX(-20%);
   }
@@ -491,22 +491,22 @@ select:focus-visible {
   left: 400px;
   top: 200px;
   transform: translateX(-60%);
-  @media only screen and (max-width: 1400px) {
+  @media screen and (max-width: 1400px) {
     left: 220px;
   }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     position: relative;
     top: 0;
     transform: translateY(-50%) translateX(-40%);
   }
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     transform: translateY(-50%) translateX(-100%);
   }
 }
 
 .right {
   padding: 20px;
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     position: relative;
   }
 }
@@ -547,7 +547,7 @@ select:focus-visible {
 
 .row_three {
   margin-top: 116px;
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     margin-top: 80px;
   }
 }
@@ -558,17 +558,17 @@ select:focus-visible {
   background-color: #f2f9ff;
   display: flex;
   justify-content: center;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     padding-top: 32px;
     padding-bottom: 32px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     padding-top: 16px;
     padding-bottom: 16px;
   }
@@ -578,11 +578,11 @@ select:focus-visible {
   margin-bottom: 4px;
   display: flex;
   justify-content: center;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     padding: 20px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     padding: 20px;
   }
 }
@@ -596,11 +596,11 @@ select:focus-visible {
 .services-section__title {
   letter-spacing: -1.2px;
   line-height: 48px;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     font-size: 26px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     font-size: 24px;
   }
 }
@@ -608,7 +608,7 @@ select:focus-visible {
 .services-section__content {
   display: flex;
   align-items: start;
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     flex-direction: column;
   }
 }
@@ -620,11 +620,11 @@ select:focus-visible {
   flex: 1;
   flex-direction: column;
   align-items: start;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     align-self: stretch;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     align-self: auto;
   }
 }
@@ -634,11 +634,11 @@ select:focus-visible {
   display: flex;
   width: 44%;
   align-items: start;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     width: 40%;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     width: 100%;
   }
 }
@@ -650,11 +650,11 @@ select:focus-visible {
   width: 100%;
   flex-direction: column;
   align-items: end;
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     width: 100%;
     margin-bottom: 26px;
   }
-  @media only screen and (max-width: 350px) {
+  @media screen and (max-width: 350px) {
     display: none;
   }
 }
@@ -668,11 +668,11 @@ select:focus-visible {
   flex-direction: column;
   align-items: end;
   border-radius: 12px;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 100%;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     width: 100%;
   }
 }
@@ -693,11 +693,11 @@ select:focus-visible {
   flex-direction: column;
   align-items: end;
   border-radius: 12px;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 100%;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     width: 100%;
   }
 }
@@ -715,11 +715,11 @@ select:focus-visible {
   display: flex;
   width: 100%;
   flex-direction: column;
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     align-self: auto;
     width: 100%;
   }
-  @media only screen and (max-width: 350px) {
+  @media screen and (max-width: 350px) {
     display: none;
   }
 }
@@ -753,15 +753,15 @@ select:focus-visible {
   margin-top: 120px;
   position: relative;
   align-content: flex-end;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     height: auto;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     height: auto;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     margin-top: 80px;
   }
 }
@@ -792,16 +792,16 @@ select:focus-visible {
   right: 0px;
   top: 0px;
   height: max-content;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     padding: 20px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     position: relative;
     padding: 20px;
   }
   
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     display: grid;
   }
 }
@@ -810,11 +810,11 @@ select:focus-visible {
   letter-spacing: -1.2px;
   width: 54%;
   line-height: 44px;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     width: 54%;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     width: 100%;
     font-size: 16px;
   }
@@ -837,7 +837,7 @@ select:focus-visible {
   align-self: center;
   position: relative;
   width: 46%;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     width: 100%;
     margin-left: 0px;
   }
@@ -854,15 +854,15 @@ select:focus-visible {
   top: 0px;
   margin-top: auto;
   margin-bottom: auto;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     height: auto;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     height: auto;
   }
 
-  @media only screen and (min-width: 1700px) {
+  @media screen and (min-width: 1700px) {
     width: 60%;
   }
 }
@@ -916,10 +916,10 @@ select:focus-visible {
   padding: 6px;
   margin: auto;
   border-radius: 3px;
-  @media only screen and (min-width: 1700px) {
+  @media screen and (min-width: 1700px) {
     left: 20%;
   }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     bottom: 33%;
     left: 27%;
   }
@@ -937,7 +937,7 @@ select:focus-visible {
 
 .section__testimonials-1 {
   bottom: 31%;
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     bottom: 40%;
   }
 }
@@ -945,16 +945,16 @@ select:focus-visible {
 .section__testimonials-2 {
   bottom: 15%;
   background: linear-gradient(141deg, #5ea3d6, #4b70d6);
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     bottom: 13%;
   }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     bottom: 16%;
   }
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     bottom: 22%;
   }
-  @media only screen and (min-width: 1700px) {
+  @media screen and (min-width: 1700px) {
     bottom: 11%;
   }
 }
@@ -978,7 +978,7 @@ select:focus-visible {
   justify-content: center;
   width: 18%;
   border-radius: 28px;
-  @media only screen and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     display: none;
   }
 }
@@ -988,11 +988,11 @@ select:focus-visible {
   border-radius: 28px;
   width: 100%;
   background-color: #ffffff;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     height: auto;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     height: auto;
   }
 }
@@ -1032,12 +1032,12 @@ select:focus-visible {
   background-color: #5ea3d6;
   display: flex;
   justify-content: center;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     padding-top: 16px;
     padding-bottom: 16px;
   }
@@ -1050,18 +1050,18 @@ select:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     padding: 20px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
     padding: 20px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -1070,11 +1070,11 @@ select:focus-visible {
 .call-to-action__title {
   color: #ffffff !important;
   letter-spacing: -1.2px;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     font-size: 26px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     font-size: 24px;
   }
 }
@@ -1091,20 +1091,20 @@ select:focus-visible {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     margin-right: 0px;
     padding-right: 20px;
     padding-left: 20px;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
   }
 }
 
 .footer__email {
   align-self: end;
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     align-self: auto;
   }
 }
@@ -1114,7 +1114,7 @@ select:focus-visible {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     width: auto;
   }
 }
@@ -1129,11 +1129,11 @@ select:focus-visible {
 
 .footer__column--legal {
   margin-top: 14px;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     padding: 20px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     padding: 20px;
   }
 }
@@ -1143,14 +1143,14 @@ select:focus-visible {
   justify-content: space-between;
   align-items: start;
   gap: 20px;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     flex-direction: column;
   }
 }
 
 .footer__copyright {
   margin-top: 10px;
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     align-self: center;
   }
 }
@@ -1164,7 +1164,7 @@ select:focus-visible {
   flex-wrap: wrap;
   gap: 20px;
   padding: 8px 16px;
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     width: auto;
   }
 }
@@ -1175,11 +1175,11 @@ select:focus-visible {
 
 .privacy-link-link {
   margin-right: 6px;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     margin-right: 0px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     margin-right: 0px;
   }
 }
@@ -1187,7 +1187,7 @@ select:focus-visible {
   gap: 13px;
   display: flex;
   z-index: 5;
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     flex-direction: column;
   }
 }
@@ -1288,7 +1288,7 @@ select:focus-visible {
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     font-size: 14px;
   }
 }
@@ -1363,15 +1363,15 @@ select:focus-visible {
   font-size: 32px;
   font-weight: 700;
   font-style: bold;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     font-size: 27px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     font-size: 30px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     font-size: 28px;
   }
 }
@@ -1380,15 +1380,15 @@ select:focus-visible {
   font-size: 48px;
   font-weight: 700;
   font-style: bold;
-  @media only screen and (max-width: 1440px) {
+  @media screen and (max-width: 1440px) {
     font-size: 40px;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media screen and (max-width: 1050px) {
     font-size: 44px;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media screen and (max-width: 550px) {
     font-size: 25px;
   }
 }
@@ -1405,7 +1405,7 @@ select:focus-visible {
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
   }
 }
@@ -1418,7 +1418,7 @@ select:focus-visible {
 .container, .container-xs {
   width: 100%;
   max-width: 80%;
-  @media only screen and (min-width: 2500px) {
+  @media screen and (min-width: 2500px) {
     max-width: 60%;
   }
 }
