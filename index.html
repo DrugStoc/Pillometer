@@ -15,6 +15,20 @@
   <body>
     <div class="pillometer-landing">
       <div>
+        <div class="mobile__header">
+          <img src="public/images/img_v1_wordmark_dark.svg" alt="Brand Image" class="mobile__logo" />
+          <button
+            class="mobile__header__button"
+            onclick="
+              window.open(
+                'https://admin.pillometer.com/select-signup',
+                '_blank'
+              )
+            "
+          >
+            Sign Up &nbsp; <img src="public/images/vector.png" width="5" height="5" alt="" title=""/>
+          </button>
+        </div>
         <!-- hero section -->
         <div class="hero">
           <div class="row-pillometer">
@@ -94,7 +108,7 @@
 
         <!-- video explanation section -->
         <div class="row_one">
-          <div class="section container-xs">
+          <div class="section">
             <div class="section__menu">
               <img src="public/images/img_overflow_menu.svg" alt="Overflow Menu Image" class="section__menu-icon" />
               <p class="section__description-1 ui text size-textxl">
@@ -130,6 +144,42 @@
           <div class="services">
             <div class="services-section container-xs">
               <div class="services-section__column">
+                
+                <div class="services-section__images-row-mobile">
+                  <div class="services-section__images-column">
+                    <div class="services-section__image-container">
+                      <img
+                        src="public/images/img_printer_2022_03_24_10_12_53.png"
+                        alt="Printer Image"
+                        class="services-section__image--printer"
+                      />
+                    </div>
+                    <div class="services-section__image-container-1">
+                      <img
+                        src="public/images/img_photo_2022_03_24_10_12_53.png"
+                        alt="Photo Image"
+                        class="services-section__image--photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="services-section__images-column-1">
+                    <div class="services-section__image-container-2">
+                      <img
+                        src="public/images/img_scanner_2022_03_24_10_12_53.png"
+                        alt="Scanner Image"
+                        class="services-section__image--scanner"
+                      />
+                    </div>
+                    <div class="services-section__image-container-3">
+                      <img
+                        src="public/images/img_photo_2022_03_24_10_12_51.png"
+                        alt="Second Photo Image"
+                        class="services-section__image--photo-1"
+                      />
+                    </div>
+                  </div>
+                </div>
+
                 <h2 class="services-section__title ui heading size-heading3xl">
                   Step-up Business Operations with Pillometer
                 </h2>
@@ -218,7 +268,7 @@
         <div class="row_four">
           <div class="section-2 container-xs">
             <div class="section__description ui">
-              <h2 class="heading size-heading3xl">
+              <h2 class="ui heading size-heading3xl">
                 <span class="section__description-span">
                   Meet D.O.R.A, <br />
                 </span>
@@ -269,24 +319,26 @@
           <div class="cta">
             <div class="call-to-action container-xs">
               <h2 class="call-to-action__title ui heading size-heading3xl">Ready to get started?</h2>
-              <div class="call-to-action__buttons">
-                <button
-                  class="call-to-action__button--download ui button material_theme_sys_light_on_primary size-sm fill round"
-                  onclick="openAppropriateLink()"
-                >
-                  Download the App
-                </button>
-                <button
-                  class="call-to-action__button--download ui button re_branding_colors_rebranding_color_black size-sm fill round"
-                  onclick="
-                    window.open(
-                      'https://forms.gle/WuCHsr2H6U8ATSou6',
-                      '_blank'
-                    )
-                  "
-                >
-                  Get Hardware &nbsp; <img src="public/images/vector.png" width="10" height="10" alt="" title=""/>
-                </button>
+              <div class="container-xs">
+                <div class="call-to-action__buttons">
+                  <button
+                    class="services-section__button ui button material_theme_sys_light_on_primary size-sm fill round"
+                    onclick="openAppropriateLink()"
+                  >
+                    Download the App
+                  </button>
+                  <button
+                    class="services-section__button ui button re_branding_colors_rebranding_color_black size-sm fill round"
+                    onclick="
+                      window.open(
+                        'https://forms.gle/WuCHsr2H6U8ATSou6',
+                        '_blank'
+                      )
+                    "
+                  >
+                    Get Hardware &nbsp; <img src="public/images/vector.png" width="10" height="10" alt="" title=""/>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -380,7 +432,7 @@
         if (window.innerWidth >= 1700) {
           bottomPosition = '4%';
         } else if (window.innerWidth <= 550) {
-          bottomPosition = '15%';
+          bottomPosition = '11%';
         } else if (window.innerWidth <= 800) {
           bottomPosition = '8%';
         } else if (window.innerWidth <= 1050) {
@@ -390,7 +442,7 @@
         }
       } else {
         if (window.innerWidth <= 800) {
-          bottomPosition = '33%';
+          bottomPosition = '23%';
         } else {
           bottomPosition = '24%';
         }
