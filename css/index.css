@@ -599,6 +599,12 @@ select:focus-visible {
   }
 }
 
+@media screen and (max-width: 550px) {
+  .row_two {
+    margin-top: 20px;
+  }
+}
+
 .left, .right {
   flex: 1;
   padding: 20px;
@@ -606,72 +612,50 @@ select:focus-visible {
 
 .left {
   position: relative;
-}
-
-@media screen and (max-width: 768px) {
-  .left {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 400px) {
-  .left {
-    display: none;
-  }
+  width: 100%;
+  padding-bottom: 50%;
 }
 
 .product-stock, .business-loc {
-  width: 80%;
+  position: absolute;
+  height: auto;
+  max-width: 100%;
 }
 
 .product-stock {
-  position: absolute;
-  height: 252.34px;
-  width: 364.23px;
   left: 0;
   top: 0;
-  display: block;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 768px) {
-  .product-stock {
-    position: relative;
-    transform: translateX(-20%);
-  }
+  z-index: 1;
 }
 
 .business-loc {
-  position: absolute;
-  height: 239.13px;
-  width: 461.65px;
-  left: 400px;
-  top: 200px;
-  transform: translateX(-60%);
+  right: 0;
+  bottom: 0;
+  z-index: 2;
 }
 
-@media screen and (max-width: 1400px) {
-  .business-loc {
-    left: 220px;
-  }
-}
 @media screen and (max-width: 768px) {
-  .business-loc {
-    position: relative;
-    top: 0;
-    transform: translateY(-50%) translateX(-40%);
+  .left {
+    padding-bottom: 70%;
   }
-}
-@media screen and (max-width: 550px) {
+
+  .product-stock {
+    width: 80%;
+  }
+
   .business-loc {
-    transform: translateY(-50%) translateX(-100%);
+    width: 85%;
   }
 }
 
-.right {
-  padding: 20px;
+@media screen and (max-width: 550px) {
+  .left {
+    padding-bottom: 80%;
+  }
+
+  .product-stock, .business-loc {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -739,6 +723,12 @@ select:focus-visible {
 @media screen and (max-width: 768px) {
   .row_three {
     margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .row_three {
+    margin-top: 20px;
   }
 }
 
@@ -1852,7 +1842,7 @@ select:focus-visible {
   margin-right: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .container {
     flex-direction: column;
   }
