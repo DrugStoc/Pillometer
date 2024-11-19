@@ -412,7 +412,7 @@ select:focus-visible {
   z-index: 3;
   width: 46%;
   position: relative;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 1050px) {
@@ -423,14 +423,13 @@ select:focus-visible {
 
 @media screen and (min-width: 1800px) {
   .laptop-image {
-    height: auto;
+    height: 334px;
   }
 }
 
 @media screen and (min-width: 2500px) {
   .laptop-image {
-    height: auto;
-    width: 36%;
+    height: 334px;
   }
 }
 
@@ -486,7 +485,7 @@ select:focus-visible {
   z-index: 5;
   width: 18%;
   position: absolute;
-  object-fit: cover;
+  object-fit: contain;
   bottom: 20%;
   right: 12%;
   margin: auto;
@@ -499,7 +498,8 @@ select:focus-visible {
 }
 @media screen and (min-width: 1800px) {
   .pillometer__device-image {
-    height: auto;
+    height: 254px;
+    right: 20%;
   }
 }
 
@@ -628,6 +628,8 @@ select:focus-visible {
 
 .product-stock {
   position: absolute;
+  height: 252.34px;
+  width: 364.23px;
   left: 0;
   top: 0;
   display: block;
@@ -643,6 +645,8 @@ select:focus-visible {
 
 .business-loc {
   position: absolute;
+  height: 239.13px;
+  width: 461.65px;
   left: 400px;
   top: 200px;
   transform: translateX(-60%);
