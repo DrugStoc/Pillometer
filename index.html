@@ -295,8 +295,8 @@
               <div class="section__content__stack">
                 <img src="public/images/img_rectangle_16.png" alt="Feature Image" class="section__content__image" />
                 <div class="section__content__actions">
-                  <h3 id="ask-dora-button" class="section__content__button ui button heading size-heading2xl">Ask Dora</h3>
-                  <img src="public/images/img_christmas_stars.svg" alt="Stars Image" class="section__content__icon" />
+                  <button id="ask-dora-button" class="section__content__button ui button heading size-heading2xl">Ask Dora</button>
+                  <img src="public/images/img_christmas_stars.svg" alt="" class="section__content__icon" aria-hidden="true" />
                 </div>
               </div>
               <div class="section__testimonials-1">
@@ -443,7 +443,9 @@
           bottomPosition = '8%';
         }
       } else {
-        if (window.innerWidth <= 800) {
+        if (window.innerWidth <= 550) {
+          bottomPosition = '30%';
+        } else if (window.innerWidth <= 800) {
           bottomPosition = '23%';
         } else {
           bottomPosition = '24%';
