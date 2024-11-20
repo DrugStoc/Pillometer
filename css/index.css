@@ -1463,6 +1463,7 @@ select:focus-visible {
 @media screen and (max-width: 768px) {
   .footer__social-media {
     width: auto;
+    gap: 8px;
   }
 }
 
