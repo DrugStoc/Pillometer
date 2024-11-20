@@ -110,7 +110,7 @@ select:focus-visible {
 
 @media screen and (max-width: 1050px) {
   .row-pillometer {
-    height: auto;
+    height: 800px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -133,7 +133,7 @@ select:focus-visible {
 
 @media screen and (max-width: 1050px) {
   .stack-view {
-    height: auto;
+    height: 800px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -347,11 +347,6 @@ select:focus-visible {
 @media screen and (max-width: 1050px) {
   .section__title {
     font-size: 32px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .section__title {
     font-size: 26px;
     text-align: center;
   }
@@ -374,11 +369,6 @@ select:focus-visible {
 @media screen and (max-width: 1050px) {
   .section__subtitle {
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .section__subtitle {
     font-size: 10px;
     text-align: center;
   }
@@ -1571,7 +1561,7 @@ select:focus-visible {
   z-index: 5;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1050px) {
   .call-to-action__buttons {
     display: flex;
     justify-content: center;
@@ -1616,7 +1606,7 @@ select:focus-visible {
   display: none;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1050px) {
   .mobile-hero-images {
     display: flex;
     position: relative;
@@ -1628,7 +1618,7 @@ select:focus-visible {
     position: absolute;
     width: 266px;
     height: 143px;
-    left: 10px;
+    left: 25%;
   }
 
   .mobile-pillometer-img {
@@ -1638,6 +1628,26 @@ select:focus-visible {
     width: 110px;
     height: 109px;
     top: 30px;
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-laptop-img {
+    left: 20%;
+  }
+
+  .mobile-pillometer-img {
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mobile-laptop-img {
+    left: 10px;
+  }
+
+  .mobile-pillometer-img {
     left: 210px;
   }
 }
