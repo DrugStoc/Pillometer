@@ -1436,15 +1436,10 @@ select:focus-visible {
 
 @media screen and (max-width: 1050px) {
   .footer__contact-info {
+    width: 100%;
     margin-right: 0px;
     padding-right: 20px;
     padding-left: 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer__contact-info {
-    flex-direction: column;
   }
 }
 
@@ -1504,7 +1499,7 @@ select:focus-visible {
 
 @media screen and (max-width: 1050px) {
   .footer__legal-info {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 

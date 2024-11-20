@@ -349,58 +349,56 @@
 
       <!-- footer section -->
       <footer class="footer">
-        <div class="container-xs">
-          <div class="footer__contact-info">
-            <p class="footer__email ui text size-textxl"><a href="mailto:info@drugstoc.com">info@drugstoc.com</a></p>
-            <div class="footer__social-media">
-              <img
-                src="public/images/img_facebook.svg"
-                onclick="
-                  window.open(
-                    'https://www.facebook.com/drugstocehub/',
-                    '_blank'
-                  )
-                "
-                alt="Facebook Icon"
-                class="footer__icon--facebook" />
-              <img
-                src="public/images/img_link.svg"
-                onclick="
-                  window.open(
-                    'https://ng.linkedin.com/company/drugstoc',
-                    '_blank'
-                  )
-                "
-                alt="Linkedin Icon"
-                class="footer__icon--linkedin" />
-              <img
-                src="public/images/img_info.svg"
-                onclick="
-                  window.open(
-                    'https://www.instagram.com/drugstoc/?hl=en',
-                    '_blank'
-                  )
-                "
-                alt="Instagram Icon"
-                class="footer__icon--linkedin" />
-              <img
-                src="public/images/img_trash.svg"
-                onclick="
-                  window.open(
-                    'https://twitter.com/DrugStocHQ',
-                    '_blank'
-                  )
-                "
-                alt="Twitter Icon"
-                class="footer__icon--facebook" />
-              <!-- <img src="public/images/img_profile.svg" alt="Profile Icon" class="footer__icon--facebook" /> -->
-            </div>
+        <div class="footer__contact-info">
+          <p class="footer__email ui text size-textxl"><a href="mailto:info@drugstoc.com">info@drugstoc.com</a></p>
+          <div class="footer__social-media">
+            <img
+              src="public/images/img_facebook.svg"
+              onclick="
+                window.open(
+                  'https://www.facebook.com/drugstocehub/',
+                  '_blank'
+                )
+              "
+              alt="Facebook Icon"
+              class="footer__icon--facebook" />
+            <img
+              src="public/images/img_link.svg"
+              onclick="
+                window.open(
+                  'https://ng.linkedin.com/company/drugstoc',
+                  '_blank'
+                )
+              "
+              alt="Linkedin Icon"
+              class="footer__icon--linkedin" />
+            <img
+              src="public/images/img_info.svg"
+              onclick="
+                window.open(
+                  'https://www.instagram.com/drugstoc/?hl=en',
+                  '_blank'
+                )
+              "
+              alt="Instagram Icon"
+              class="footer__icon--linkedin" />
+            <img
+              src="public/images/img_trash.svg"
+              onclick="
+                window.open(
+                  'https://twitter.com/DrugStocHQ',
+                  '_blank'
+                )
+              "
+              alt="Twitter Icon"
+              class="footer__icon--facebook" />
+            <!-- <img src="public/images/img_profile.svg" alt="Profile Icon" class="footer__icon--facebook" /> -->
           </div>
         </div>
         <div class="footer__divider"></div>
         <div class="footer__column--legal container-xs">
           <div class="footer__legal-info">
-            <p class="footer__copyright ui text size-textxl">2024 - All Rights Reserved</p>
+            <p id="footer-year" class="footer__copyright ui text size-textxl"></p>
             <ul class="footer__links">
               <li>
                 <a href="#" class="terms-link-link">
@@ -425,6 +423,8 @@
   </body>
 
   <script>
+    document.getElementById('footer-year').innerHTML = `${new Date().getFullYear()} - All Rights Reserved`;
+    
     const resizeActionsBottomPosition = () => {
       const actions = document.querySelector('.section__content__actions');
       const button = document.getElementById('ask-dora-button');
