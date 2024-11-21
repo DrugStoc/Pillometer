@@ -298,6 +298,7 @@ select:focus-visible {
   height: 21px;
   width: 96.5px;
   border-radius: 2.5px;
+  z-index: 5;
 }
 
 .section__header {
