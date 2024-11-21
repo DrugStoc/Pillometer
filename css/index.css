@@ -1304,7 +1304,8 @@ select:focus-visible {
 .section__testimonials__column--image {
   display: flex;
   justify-content: center;
-  width: 18%;
+  width: 59px;
+  height: 59px;
   border-radius: 28px;
 }
 
