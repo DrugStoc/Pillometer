@@ -624,6 +624,20 @@ select:focus-visible {
   z-index: 2;
 }
 
+@media screen and (min-width: 1700px) {
+  .left {
+    padding-bottom: 30%;
+  }
+
+  .product-stock {
+    width: 60%;
+  }
+
+  .business-loc {
+    width: 65%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .left {
     padding-bottom: 70%;
