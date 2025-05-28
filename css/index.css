@@ -1254,28 +1254,33 @@ select:focus-visible {
 }
 
 .section__testimonials-2 {
-  bottom: 15%;
+  bottom: -15%;
   background: linear-gradient(141deg, #5ea3d6, #4b70d6);
 }
 
 @media screen and (max-width: 1050px) {
   .section__testimonials-2 {
-    bottom: 13%;
+    bottom: -1%;
   }
 }
 @media screen and (max-width: 768px) {
   .section__testimonials-2 {
-    bottom: 14%;
+    bottom: -10%;
   }
 }
 @media screen and (max-width: 550px) {
   .section__testimonials-2 {
-    bottom: 15%;
+    bottom: 3%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .section__testimonials-2 {
+    bottom: -20%;
   }
 }
 @media screen and (min-width: 1700px) {
   .section__testimonials-2 {
-    bottom: 11%;
+    bottom: -11%;
   }
 }
 

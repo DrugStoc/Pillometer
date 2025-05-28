@@ -276,13 +276,13 @@
             <div class="section__description ui">
               <h2 class="ui heading size-heading3xl">
                 <span class="section__description-span">
-                  Meet D.O.R.R.A, <br />
+                  Meet Dorra, <br />
                 </span>
                 <span>Pillometer’s Artificial Intelligence Powered Operating System</span>
               </h2>
               <p class="description ui text size-textxl">
                 <p class="bold-text">Developed with Pharmacists, for Pharmacies.</p>
-                <p class="description-text">D.O.R.R.A empowers your pharmacists and attendants to deliver:</p>
+                <p class="description-text">Dorra empowers your pharmacists and attendants to deliver:</p>
                 <ul class="unordered-list description-list">
                   <li>Unmatched patient care</li>
                   <li>Enhanced medication safety with personalized drug interaction, contraindication, and allergen detection</li>
@@ -290,14 +290,14 @@
                   <li>Secured cloud storage and reliable data protection</li>
                 </ul>
                 <p class="bold-text">Experience Advanced Pharmacy Management.</p>
-                <p class="description-text">Set up Pillometer in just 10 minutes and transform business operations with D.O.R.R.A.</p>
+                <p class="description-text">Set up Pillometer in just 10 minutes and transform business operations with Dorra.</p>
               </p>
             </div>
             <div class="section__content-1">
               <div class="section__content__stack">
                 <img src="public/images/img_rectangle_16.png" alt="Feature Image" class="section__content__image" />
                 <div class="section__content__actions" id="ask-dora-container">
-                  <button id="ask-dora-button" class="section__content__button ui button heading size-heading2xl">Ask Dora</button>
+                  <button id="ask-dora-button" class="section__content__button ui button heading size-heading2xl">Ask Dorra</button>
                   <img src="public/images/img_christmas_stars.svg" alt="" class="section__content__icon" aria-hidden="true" />
                 </div>
               </div>
@@ -308,7 +308,7 @@
                 <div class="section__testimonials__column--text">
                   <p class="section__testimonials__author ui text size-textxl">Esther Nc</p>
                   <h4 class="section__testimonials__message ui heading size-textlg">
-                    What drug can I take with paracetamol to cure menstrual cramps?
+                    I have a migraine
                   </h4>
                 </div>
               </div>
@@ -430,15 +430,17 @@
 
       if (button.innerText === 'Restart') {
         if (window.innerWidth >= 1700) {
-          bottomPosition = '4%';
+          bottomPosition = '-4%';
+        } else if (window.innerWidth <= 400) {
+          bottomPosition = '-30%';
         } else if (window.innerWidth <= 550) {
-          bottomPosition = '5%';
+          bottomPosition = '-5%';
         } else if (window.innerWidth <= 800) {
-          bottomPosition = '8%';
+          bottomPosition = '-17%';
         } else if (window.innerWidth <= 1050) {
-          bottomPosition = '6.5%';
+          bottomPosition = '-7.5%';
         } else {
-          bottomPosition = '8%';
+          bottomPosition = '-21%';
         }
       } else {
         if (window.innerWidth <= 550) {
@@ -456,7 +458,7 @@
       const sectionContent = document.querySelector('.section__content-1');
       const button = document.getElementById('ask-dora-button');
 
-      if (button.innerText === 'Ask Dora') {
+      if (button.innerText === 'Ask Dorra') {
         // Add new testimonial
         const newTestimonial = document.createElement('div');
         newTestimonial.className = 'section__testimonials-2 fade-in';
@@ -465,9 +467,12 @@
             <img src="public/images/img_rectangle_16_copy.png" alt="Whatsapp Image" class="section__testimonials__image" />
           </div>
           <div class="section__testimonials__column--text">
-            <p class="section__testimonials__author ui text size-textxl">Dora</p>
+            <p class="section__testimonials__author ui text size-textxl">Dorra</p>
             <h4 class="section__testimonials__message ui heading size-textlg">
-              Felvin is a very good option, given that the patient is below 40 years.
+              Treatment for acute migraine aims to stop the attack or reduce the severity of the headache and associated symptoms.
+            </h4>
+            <h4 class="section__testimonials__message ui heading size-textlg">
+              Lifestyle changes such as maintaining regular meals, hydration, sleep, and exercise can also help manage migraines. Acute migraine treatment options include medications like triptans (such as sumatriptan) or NSAIDs like ibuprofen. It's important to consult a healthcare professional for a personalized treatment plan.
             </h4>
           </div>
         `;
@@ -492,7 +497,7 @@
         }
 
         // Revert CSS for section__content__actions
-        button.innerText = 'Ask Dora';
+        button.innerText = 'Ask Dorra';
         resizeActionsBottomPosition();
       }
     });
