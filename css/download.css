@@ -1,32 +1,3 @@
-@font-face {
-  font-display: swap;
-  font-style: normal;
-  src: url("../public/fonts/MontserratSemiBold.ttf");
-  font-family: "Montserrat";
-  font-weight: 600;
-}
-@font-face {
-  font-display: swap;
-  font-style: normal;
-  src: url("../public/fonts/MontserratBold.ttf");
-  font-family: "Montserrat";
-  font-weight: 700;
-}
-@font-face {
-  font-display: swap;
-  font-style: normal;
-  src: url("../public/fonts/MontserratRegular.ttf");
-  font-family: "Montserrat";
-  font-weight: 400;
-}
-@font-face {
-  font-display: swap;
-  font-style: normal;
-  src: url("../public/fonts/MontserratMedium.ttf");
-  font-family: "Montserrat";
-  font-weight: 500;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -82,6 +53,7 @@ body {
 .download-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .download-header-text {

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="public/favicon.ico" />
+    <title>Pillometer | Order Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Discover Pillometer, the ultimate pharmacy operating system designed for seamless inventory management. Watch our video to see how it can transform your pharmacy's efficiency."
+    />
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/download.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/form.css" />
+  </head>
+  <body>
+    <div class="form-landing">
+      <div class="form-hero">
+        <img src="public/images/pillometer-form-left.svg" alt="hero-image" class="pillometer-form-left" />
+        <img src="public/images/pillometer-form-right.svg" alt="hero-image" class="pillometer-form-right" />
+        <img src="public/images/pillometer-form-center.svg" alt="hero-image" class="pillometer-form-center" />
+
+        <div class="download-header">
+          <a href="index.html">
+            <img
+              src="public/images/arrow-back-white.svg"
+              alt="Go back"
+              class="arrow-back"
+            />
+          </a>
+          <span class="form-hero-text">Pillometer POS Machine<br />Order Form</span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="form-container">
+        <span class="form-header">Kindly Fill the contact information form to place an Order for your Pillometer Device.<br/>A Drugstoc Rep will reach out to you As soon as possible</span>
+        <a class="submit-button">Submit</a>
+      </div>
+
+      <!-- footer section -->
+      <footer class="footer">
+        <div class="footer__contact-info">
+          <p class="footer__email ui text size-textxl"><a href="mailto:info@drugstoc.com">info@drugstoc.com</a></p>
+          <div class="footer__social-media">
+            <img
+              src="public/images/img_facebook.svg"
+              onclick="
+                window.open(
+                  'https://www.facebook.com/drugstocehub/',
+                  '_blank'
+                )
+              "
+              alt="Facebook Icon"
+              class="footer__icon--facebook" />
+            <img
+              src="public/images/img_link.svg"
+              onclick="
+                window.open(
+                  'https://ng.linkedin.com/company/drugstoc',
+                  '_blank'
+                )
+              "
+              alt="Linkedin Icon"
+              class="footer__icon--linkedin" />
+            <img
+              src="public/images/img_info.svg"
+              onclick="
+                window.open(
+                  'https://www.instagram.com/drugstoc/?hl=en',
+                  '_blank'
+                )
+              "
+              alt="Instagram Icon"
+              class="footer__icon--linkedin" />
+            <img
+              src="public/images/img_trash.svg"
+              onclick="
+                window.open(
+                  'https://twitter.com/DrugStocHQ',
+                  '_blank'
+                )
+              "
+              alt="Twitter Icon"
+              class="footer__icon--facebook" />
+            <!-- <img src="public/images/img_profile.svg" alt="Profile Icon" class="footer__icon--facebook" /> -->
+          </div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__column--legal container-xs">
+          <div class="footer__legal-info">
+            <p id="footer-year" class="footer__copyright ui text size-textxl"></p>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="terms-link-link">
+                  <p class="ui text size-textxl">Terms & Conditions</p>
+                </a>
+              </li>
+              <li>
+                <a href="Policy" target="_blank" rel="noreferrer">
+                  <p class="ui text size-textxl">Policy</p>
+                </a>
+              </li>
+              <li>
+                <a href="Privacy" target="_blank" rel="noreferrer" class="privacy-link-link">
+                  <p class="ui text size-textxl">Privacy</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+  <script>
+    document.getElementById('footer-year').innerHTML = `${new Date().getFullYear()} - All Rights Reserved`;
+  </script>
+</html>

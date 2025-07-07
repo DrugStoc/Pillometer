@@ -1,0 +1,67 @@
+.form-hero {
+  position: relative;
+  background: linear-gradient(141.19deg, #5EA3D6 7.98%, #4B70D6 95.46%);
+  padding: 80px 40px;
+  z-index: 10;
+}
+
+.pillometer-form-left, .pillometer-form-right, .pillometer-form-center {
+  position: absolute;
+  z-index: -1;
+}
+
+.pillometer-form-left {
+  top: 0;
+  left: 0;
+}
+
+.pillometer-form-right {
+  top: 0;
+  right: 0;
+}
+
+.pillometer-form-center {
+  bottom: 0;
+  right: 20%;
+}
+
+.form-landing {
+  gap: 24px;
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.form-hero-text {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -1.8px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-header {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 44px;
+  letter-spacing: -1.2px;
+  text-align: center;
+}
+
+.submit-button {
+  border-radius: 8px;
+  background: #5EA3D6;
+  padding: 16px 52px;
+  color: #FFFFFF;
+}
