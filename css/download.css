@@ -19,11 +19,19 @@ body {
   align-items: center;
 }
 
+@media (max-width: 640px) {
+  .navigator-class{
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
 .navigator-button {
   background-color: #5EA3D6;
   border-radius: 5px;
   color: #FFFFFF;
   padding: 8px 16px;
+  text-decoration: none;
 }
 
 .download-body {
@@ -90,6 +98,12 @@ body {
   gap: 22px;
 }
 
+@media (max-width: 640px) {
+  .download-box {
+    padding: 20px 10px;
+  }
+}
+
 .download-cards {
   display: flex;
   flex-direction: row;
@@ -97,6 +111,12 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+@media (max-width: 1050px) {
+  .download-cards {
+    flex-direction: column;
+  }
 }
 
 .download-card {
@@ -119,18 +139,30 @@ body {
   background: var(--color-primary-blue-800, #5EA3D6);
 }
 
-.mac-image {
+.mac-image, .mobile-image {
   position: absolute;
+}
+
+.mac-image {
   width: 335px;
   right: 0;
   bottom: 12px;
 }
 
 .mobile-image {
-  position: absolute;
   width: 235px;
   left: 20%;
   bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .mac-image {
+    width: 235px;
+  }
+
+  .mobile-image {
+    width: 175px;
+  }
 }
 
 .download-category {
