@@ -105,16 +105,15 @@ body {
 }
 
 .download-cards {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 8px;
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
 
 @media (max-width: 1050px) {
   .download-cards {
+    display: flex;
     flex-direction: column;
   }
 }
@@ -153,6 +152,12 @@ body {
   width: 235px;
   left: 20%;
   bottom: 0;
+}
+
+@media (min-width: 2000px) {
+  .mobile-image {
+    left: 35%;
+  }
 }
 
 @media (max-width: 640px) {
