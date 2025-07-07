@@ -5,9 +5,21 @@
   z-index: 10;
 }
 
+@media (max-width: 640px) {
+  .form-hero {
+    padding: 40px;
+  }
+}
+
 .pillometer-form-left, .pillometer-form-right, .pillometer-form-center {
   position: absolute;
   z-index: -1;
+}
+
+@media (max-width: 640px) {
+  .pillometer-form-left, .pillometer-form-right, .pillometer-form-center {
+    display: none;
+  }
 }
 
 .pillometer-form-left {
@@ -43,6 +55,12 @@
   color: #FFFFFF;
 }
 
+@media (max-width: 640px) {
+  .form-header {
+    font-size: 32px;
+  }
+}
+
 .form-content {
   display: flex;
   flex-direction: column;
@@ -57,6 +75,12 @@
   line-height: 44px;
   letter-spacing: -1.2px;
   text-align: center;
+}
+
+@media (max-width: 640px) {
+  .form-header {
+    font-size: 18px;
+  }
 }
 
 .form-container {

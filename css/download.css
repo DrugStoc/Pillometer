@@ -56,6 +56,12 @@ body {
   align-items: center;
 }
 
+@media (max-width: 640px) {
+  .download-header {
+    flex-direction: column;
+  }
+}
+
 .download-header-text {
   font-family: Montserrat;
   font-weight: 600;
