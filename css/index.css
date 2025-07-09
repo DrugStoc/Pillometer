@@ -1459,7 +1459,9 @@ select:focus-visible {
 }
 
 .footer__contact-info {
-  margin-right: 18px;
+  max-width: 80%;
+  width: 100%;
+  padding: 0px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1939,33 +1941,4 @@ select:focus-visible {
   .container, .container-xs {
     max-width: 60%;
   }
-}
-
-@font-face {
-  font-display: swap;
-  font-style: normal;
-  src: url("../public/fonts/MontserratSemiBold.ttf");
-  font-family: "Montserrat";
-  font-weight: 600;
-}
-@font-face {
-  font-display: swap;
-  font-style: normal;
-  src: url("../public/fonts/MontserratBold.ttf");
-  font-family: "Montserrat";
-  font-weight: 700;
-}
-@font-face {
-  font-display: swap;
-  font-style: normal;
-  src: url("../public/fonts/MontserratRegular.ttf");
-  font-family: "Montserrat";
-  font-weight: 400;
-}
-@font-face {
-  font-display: swap;
-  font-style: normal;
-  src: url("../public/fonts/MontserratMedium.ttf");
-  font-family: "Montserrat";
-  font-weight: 500;
 }
